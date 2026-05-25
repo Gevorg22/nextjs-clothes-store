@@ -14,8 +14,11 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: 'Next Clothes | Главная',
+  title: 'Next Clothes Store',
   description: 'Your one-stop shop for the latest fashion trends',
+  icons: {
+    icon: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({
